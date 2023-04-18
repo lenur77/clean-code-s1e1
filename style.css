@@ -21,8 +21,8 @@ li > * {
 /* Basic Style */
 body {
   width: 100%;
-  background-color: hsl(0, 0%, 97%);
-  color: hsl(0, 0%, 20%);
+  background-color: #f7f7f7;
+  color: #333333;
   font-family: "Lato", sans-serif;
 }
 
@@ -64,14 +64,14 @@ body {
   background: none;
   /* font-family: Lato, sans-serif; */
   border: 0px;
-  color: hsl(0, 0%, 53%);
+  color: #878787;
   width: 4em;
   cursor: pointer;
   transition: all.3s linear;
 }
 
 .todo__btn:hover {
-  color: hsl(0, 0%, 23%);
+  color: #3b3b3b;
 }
 
 .todo__icon {
@@ -90,10 +90,10 @@ body {
   line-height: 1;
   /* height: 21px; */
   padding: 0 9px;
-  border: 1px solid hsl(0, 0%, 87%);
+  border: 1px solid #dedede;
   border-radius: 6px;
-  background: hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 53%);
+  background: #ffffff;
+  color: #878787;
   margin: 0;
 }
 
@@ -102,13 +102,13 @@ body {
 }
 
 .todo__input:focus {
-  color: hsl(0, 0%, 20%);
+  color: #333333;
 }
 
 .todo__item {
   overflow: hidden;
   padding: 20px 0;
-  border-bottom: 1px solid hsl(0, 0%, 93%);
+  border-bottom: 1px solid #ededed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -129,7 +129,7 @@ body {
 /* Completed */
 .todo__task--complited {
   text-decoration: line-through;
-  color: hsl(0, 0%, 53%);
+  color: #878787;
 }
 
 /* Edit Task */
